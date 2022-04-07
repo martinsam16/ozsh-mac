@@ -34,3 +34,8 @@ cp .zshrc ~/.oh-my-zsh
 source ~/.zshrc
 ```
 
+## Screenshots
+
+![ss-1](./docs/img/ss-1.png)
+
+![ss-2](./docs/img/ss-2.png)
