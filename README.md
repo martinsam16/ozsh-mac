@@ -4,6 +4,7 @@
 
 - Sdkman
 - Ozsh
+- Typora
 
 ## Customize
 
