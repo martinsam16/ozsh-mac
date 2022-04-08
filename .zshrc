@@ -103,8 +103,13 @@ source $ZSH/oh-my-zsh.sh
 # Custom configs
 export PATH=/opt/homebrew/bin:$PATH
 
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+## Uncomment if sdkman installed
 
+# export SDKMAN_DIR="$HOME/.sdkman"
+# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Alias
 alias ls='lsd'
-alias typora="open -a typora"
+
+# Uncomment if typora installed
+# alias typora="open -a typora"

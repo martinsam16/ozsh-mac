@@ -1,10 +1,9 @@
-# Config ozsh on Mac M1
+# Config ozsh/terminal on Mac M1
 
 ## Requirements
 
-- Sdkman
 - Ozsh
-- Typora
+- Terminal
 
 ## Customize
 
@@ -14,10 +13,16 @@ brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 # Install lsd
 brew install lsd
-# Install sdkman
 ```
 
-Change font on "Terminal > Preferences > Profiles > Text" to "Hack Regular Nerd Font Complete Mono 11"
+## Import Theme 
+
+1. Go to *Terminal > Preferences > Profiles > Import Profile*
+2. Select one theme of *themes/**.terminal*
+   1. The One
+   2. One Dark
+   3. One Light
+3. Go to *Terminal > General* and set default profile from themes imported
 
 ## Configuration
 
@@ -28,11 +33,20 @@ chsh -s $(which zsh)
 
 ## Copy custom-theme
 cp themes/custom-theme.zsh-theme ~/.oh-my-zsh/themes
-cp .zshrc ~/.oh-my-zsh
+cp .zshrc ~/.zshrc
 
 ## Refresh ozsh
 source ~/.zshrc
 ```
+
+## Fixing the font in IDEs
+
+```properties
+# vscode
+"terminal.integrated.fontFamily": "Hack Nerd Font"
+```
+
+
 
 ## Screenshots
 
