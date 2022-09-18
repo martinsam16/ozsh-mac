@@ -10,7 +10,7 @@
 ```sh
 # Install required fonts
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
+brew install font-hack-nerd-font --cask
 # Install ls with steroids
 brew install lsd
 # Install cat with steroids
